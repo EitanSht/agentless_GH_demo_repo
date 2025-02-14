@@ -1,0 +1,9 @@
+trigger:
+- main
+
+pool:
+  vmImage: 'windows-latest'
+
+steps:
+- task: MicrosoftSecurityDevOps@1
+  displayName: 'Microsoft Security DevOps'
